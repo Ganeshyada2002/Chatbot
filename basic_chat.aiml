@@ -1,0 +1,93 @@
+
+
+<aiml version="1.0">
+    <category>
+        <pattern>HI</pattern>
+        <template>Hello there! I am Verose. How can I assist you?</template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hi! This is Verose. What can I do for you today?</template>
+    </category>
+
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>Nice to meet you, <star/>. How can I assist you today?</template>
+    </category>
+
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>I'm just a chatbot, so I don't have feelings, but I'm here to help you!</template>
+    </category>
+    
+    <category>
+        <pattern>I AM FINE</pattern>
+        <template>Good to know that.</template>
+    </category>
+
+    <category>
+        <pattern>I AM * EMOTIONAL</pattern>
+        <template>Why do you feel <star/>?</template>
+    </category>
+
+    <category>
+        <pattern>WHY IS THAT</pattern>
+        <template>Just curious. How can Verose assist you today?</template>
+    </category>
+
+    <category>
+        <pattern>PLACES_TO_EAT</pattern>
+        <template>I can let you know some nearby eateries in BITS Hyderabad.</template>
+    </category>
+
+    <category>
+        <pattern>NOT HUNGRY</pattern>
+        <template>Alright, let Verose know if you need any other assistance.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT DID I ASK</pattern>
+        <template>Oh, you wanted to know about places to eat in BITS Hyderabad?</template>
+    </category>
+
+    <category>
+        <pattern>ARE YOU TELLING YOU ARE NOT HUNGRY</pattern>
+        <template>Yes, I am not hungry.</template>
+    </category>
+
+    <category>
+        <pattern>NO</pattern>
+        <template>Alright!</template>
+    </category>
+
+    <!-- Geography-related queries -->
+    <category>
+        <pattern>TELL ME ABOUT *</pattern>
+        <template>Sorry, I don't have information about <star/>. How can I help you with something else?</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE CAPITAL OF *</pattern>
+        <template>Sorry, I'm not sure about the capital of <star/>. How can I assist you with another question?</template>
+    </category>
+
+    <category>
+        <pattern>WHERE IS *</pattern>
+        <template>Sorry, I don't have information about the location of <star/>. How can I help you with something else?</template>
+    </category>
+    
+    <!-- Fallback response for unmatched input -->
+    <category>
+        <pattern>*</pattern>
+        <template>
+            I'm sorry, I don't understand that. Can you please rephrase or ask something else?
+        </template>
+    </category>
+
+    <!-- Who created me -->
+    <category>
+        <pattern>WHO CREATED YOU</pattern>
+        <template>Thirumal has created me, Verose. How can I assist you today?</template>
+    </category>
+</aiml>
